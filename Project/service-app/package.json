@@ -1,0 +1,24 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "Server side for Gutenberg Electron UI",
+  "scripts": {    
+    "start": "concurrently \"node api/app.js\" \"node worker/worker.js\""
+  },  
+  "author": "Paromita Datta",
+  "dependencies": {
+    "unzip": "0.1.11",    
+    "download-file" : "0.1.5",
+    "rdflib" : "0.15.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.1.18",
+    "request": "^2.81.0",
+    "bluebird": "^3.4.7",
+    "flat": "^2.0.1",
+    "concurrently": "^3.2.0",
+    "node-redis": "^0.1.7",
+    "redis": "^2.6.5",
+    "node-redis-pubsub": "^1.0.2",
+    "xss-filters": "^1.2.7"
+  }  
+}
